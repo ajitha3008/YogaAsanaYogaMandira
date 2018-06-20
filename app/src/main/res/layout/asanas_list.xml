@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/bannerholder"
+        layout="@layout/banner_ads_layout"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs_container"
+            style="@style/TabLayoutStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="?actionBarSize"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"
+            app:tabGravity="fill"
+            app:tabIndicatorColor="@color/colorPrimaryDark"
+            app:tabIndicatorHeight="3.0dip"
+            app:tabMode="scrollable"
+            app:tabSelectedTextColor="@color/text_grey" />
+
+        <View
+            android:id="@+id/toolbar_shadow"
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:layout_gravity="bottom"
+            android:background="@drawable/shadow" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dialogue_pattern" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/tab_checked" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager_container"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    </FrameLayout>
+</LinearLayout>

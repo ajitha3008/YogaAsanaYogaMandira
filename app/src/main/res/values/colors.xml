@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <color name="colorPrimary">#cc6600</color>
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <color name="colorPrimaryDark">#a55200</color>
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="colorAccent">#ff9933</color>
+    <color name="hyperlink_blue">#0645AD</color>
+    <color name="tab_disable">#979797</color>
+    <color name="tab_enable">#FFFFFF</color>
+    <color name="tab_checked">#F3CD70</color>
+    <color name="tab_unchecked">#FFFFFF</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="dark_grey">#A9A9A9</color>
+    <color name="slate_grey">#708090</color>
+    <color name="text_grey">#ff434343</color>
+</resources>
